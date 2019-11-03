@@ -7,7 +7,8 @@
   "license": "CC-BY-NC-SA",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass assets/sass/:assets/css/"
+    "build": "sass assets/sass/:assets/css/",
+    "watch": "sass --watch assets/sass/:assets/css/"
   },
   "dependencies": {
     "sass": "^1.23.1"
