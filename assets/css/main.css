@@ -1,11 +1,21 @@
 @charset "UTF-8";
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 @import 'fontawesome-all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -72,6 +82,13 @@ input, select, textarea {
   appearance: none;
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Basic */
 @-ms-viewport {
   width: device-width;
@@ -103,6 +120,13 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   transition: none !important;
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Type */
 html {
   font-size: 16pt;
@@ -162,7 +186,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
-  text-transform: uppercase;
   letter-spacing: 0.2rem;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -183,6 +206,7 @@ h1 {
   font-size: 2.25rem;
   line-height: 1.3;
   letter-spacing: 0.5rem;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -277,6 +301,13 @@ hr {
   text-align: right;
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Form */
 form {
   margin: 0 0 2rem 0;
@@ -530,6 +561,13 @@ input[type=radio] + label:before {
   opacity: 1;
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Box */
 .box {
   border-radius: 4px;
@@ -548,6 +586,13 @@ input[type=radio] + label:before {
   padding: 0;
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Icon */
 .icon {
   text-decoration: none;
@@ -579,6 +624,13 @@ input[type=radio] + label:before {
   font-family: "Font Awesome 5 Brands";
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Image */
 .image {
   border-radius: 4px;
@@ -647,6 +699,13 @@ input[type=radio] + label:before {
   }
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* List */
 ol {
   list-style: decimal;
@@ -690,6 +749,13 @@ dl dd {
   margin-left: 2rem;
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Actions */
 ul.actions {
   display: -moz-flex;
@@ -793,6 +859,13 @@ ul.actions:not(.fixed) li .button.icon:before {
   }
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Icons */
 ul.icons {
   cursor: default;
@@ -822,6 +895,13 @@ ul.icons li a:active {
   background-color: rgba(255, 255, 255, 0.175);
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Table */
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
@@ -877,6 +957,13 @@ table.alt tfoot {
   border-top: 0;
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Button */
 input[type=submit],
 input[type=reset],
@@ -977,6 +1064,13 @@ button {
   line-height: calc(2.75rem - 2px);
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* BG */
 #bg {
   -moz-transform: scale(1.0);
@@ -1044,6 +1138,13 @@ body.is-preload #bg:before {
   background-color: #000000;
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Wrapper */
 #wrapper {
   display: -moz-flex;
@@ -1088,6 +1189,13 @@ body.is-preload #bg:before {
   }
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Header */
 #header {
   display: -moz-flex;
@@ -1175,7 +1283,6 @@ body.is-preload #bg:before {
   margin-bottom: 0;
 }
 #header .content p {
-  text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 0.8rem;
   line-height: 2;
@@ -1315,6 +1422,13 @@ body.is-preload #header .content .inner {
   }
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Main */
 #main {
   -moz-flex-grow: 1;
@@ -1423,6 +1537,13 @@ body.is-preload #header .content .inner {
   }
 }
 
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Footer */
 #footer {
   -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
