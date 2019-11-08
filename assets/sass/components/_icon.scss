@@ -35,3 +35,13 @@
 			}
 		}
 	}
+
+.icon_svg {
+    padding-top: 5px;
+
+    > .label {
+        display: block;
+        font-size: 15px;
+        line-height: 0;
+    }
+}
