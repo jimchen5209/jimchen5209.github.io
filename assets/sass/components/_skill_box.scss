@@ -15,6 +15,7 @@
     padding: 10px;
     display: flex;
     align-items: center;
+    transition-duration: 500ms;
 
     .big_icon_svg {
         filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(87deg) brightness(114%) contrast(101%);
