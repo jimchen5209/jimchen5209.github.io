@@ -716,7 +716,6 @@ input[type=radio] + label:before {
 .icon_svg {
     padding-top: 5px;
 }
-
 .icon_svg > .label {
     display: block;
     font-size: 15px;
@@ -970,7 +969,7 @@ ul.icons {
   cursor: default;
   list-style: none;
   padding-left: 0;
-    display: flex;
+    display: inline;
     align-content: center;
 }
 ul.icons li {
