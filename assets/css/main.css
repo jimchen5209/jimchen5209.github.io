@@ -395,6 +395,152 @@ hr {
  * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
  * Copyright (c) 2019.
  */
+#refresh_Button {
+    position: relative;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 110px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border: white 1px solid;
+    transition-duration: 500ms;
+}
+
+#refresh_Button:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+    cursor: pointer;
+}
+
+#refresh_Button:active {
+    background-color: rgba(255, 255, 255, 0.175);
+}
+
+#refresh_Button.refreshing {
+    background-color: #D84315;
+}
+
+#refresh_Button.refreshing:after {
+    content: "ing...";
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: red;
+}
+
+.error.hide {
+    display: none;
+}
+
+.works_box {
+    position: relative;
+    border: white 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition-duration: 500ms;
+}
+
+.works_box .works_thumbnails {
+    margin: 0;
+    width: 190px;
+}
+
+.works_box .detail {
+    width: calc(100% - 110px);
+    height: 90%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.works_box .detail .title {
+    margin: 3px;
+    color: white;
+    font-size: 25px;
+}
+
+.works_box .detail .description {
+    margin-left: 3px;
+    color: white;
+    display: inline-block;
+}
+
+.works_box .detail .status {
+    margin-top: 10px;
+    height: 20px;
+    vertical-align: bottom;
+    border: white 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    opacity: 80%;
+    line-height: 15px;
+}
+
+.works_box .detail .status.unknown {
+    background-color: #808080;
+}
+
+.works_box .detail .status.unknown:before {
+    content: "Unknown";
+}
+
+.works_box .detail .status.online {
+    background-color: green;
+}
+
+.works_box .detail .status.online:before {
+    content: "Online";
+}
+
+.works_box .detail .status.offline {
+    background-color: red;
+}
+
+.works_box .detail .status.offline:before {
+    content: "Offline";
+}
+
+.works_box .detail .status.unknown {
+    background-color: grey;
+}
+
+.works_box .detail .status.unknown:before {
+    content: "Unknown";
+}
+
+.works_box:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+    text-decoration: none;
+    border-color: white;
+}
+
+.works_box:active {
+    background-color: rgba(255, 255, 255, 0.175);
+}
+
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
 /* Form */
 form {
   margin: 0 0 2rem 0;

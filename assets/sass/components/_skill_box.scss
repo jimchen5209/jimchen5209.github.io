@@ -8,14 +8,7 @@
 /* Skill_Box */
 
 .skill_box {
-    position: relative;
-    border: white 1px solid;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    transition-duration: 500ms;
+    @include boxes;
 
     .big_icon_svg {
         filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(87deg) brightness(114%) contrast(101%);
@@ -24,12 +17,7 @@
     }
 
     .detail {
-        width: calc(100% - 110px);
-        height: 90%;
-        display: inline-block;
-        vertical-align: top;
-        padding: 5px;
-        margin-left: 10px;
+        @include boxes_details;
 
         .title {
             margin: 3px;

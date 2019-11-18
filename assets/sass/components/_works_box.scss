@@ -1,0 +1,134 @@
+/*!
+ * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
+ * Edited By / Author: jimchen5209
+ * License: Creative Commons 4.0 BY-NC-SA
+ * License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Copyright (c) 2019.
+ */
+
+#refresh_Button {
+    position: relative;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 110px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border: white 1px solid;
+    transition-duration: 500ms;
+
+    &:hover {
+        background-color: _palette(border-bg);
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: _palette(border-bg-alt);
+    }
+
+    &.refreshing {
+        background-color: #D84315;
+
+        &:after {
+            content: "ing...";
+        }
+    }
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: red;
+
+    &.hide {
+        display: none;
+    }
+}
+
+.works_box {
+    @include boxes;
+
+    .works_thumbnails {
+        margin: 0;
+        width: 190px;
+    }
+
+    .detail {
+        @include boxes_details;
+        text-decoration: none;
+
+        .title {
+            margin: 3px;
+            color: white;
+            font-size: 25px;
+        }
+
+        .description {
+            margin-left: 3px;
+            color: white;
+            display: inline-block;
+        }
+
+        .status {
+            margin-top: 10px;
+            height: 20px;
+            vertical-align: bottom;
+            border: white 1px solid;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            color: white;
+            display: inline-block;
+            width: 100%;
+            opacity: 80%;
+            line-height: 15px;
+
+            &.unknown {
+                background-color: #808080;
+
+                &:before {
+                    content: 'Unknown'
+                }
+            }
+
+            &.online {
+                background-color: green;
+
+                &:before {
+                    content: 'Online'
+                }
+            }
+
+            &.offline {
+                background-color: red;
+
+                &:before {
+                    content: 'Offline'
+                }
+            }
+
+            &.unknown {
+                background-color: grey;
+
+                &:before {
+                    content: 'Unknown'
+                }
+            }
+        }
+    }
+
+    &:hover {
+        background-color: _palette(border-bg);
+        text-decoration: none;
+        border-color: white;
+    }
+
+    &:active {
+        background-color: _palette(border-bg-alt);
+    }
+}
