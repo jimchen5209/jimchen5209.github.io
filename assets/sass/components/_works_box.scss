@@ -6,20 +6,35 @@
  * Copyright (c) 2019.
  */
 
+.big_category {
+    margin: 10px;
+
+    &.with_button {
+        display: inline-block;
+    }
+}
+
+.small_category {
+    margin: 10px 10px 10px 13px;
+}
+
 #refresh_Button {
-    position: relative;
-    right: 0;
-    display: flex;
+    position: absolute;
+    right: 2.5rem;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 30px;
-    width: 110px;
+    height: 40px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0 10px 0 10px;
     margin: 10px;
     color: white;
     border: white 1px solid;
     transition-duration: 500ms;
+
+    .button_text {
+        line-height: 10px;
+    }
 
     &:hover {
         background-color: _palette(border-bg);
@@ -51,15 +66,24 @@
 }
 
 .works_box {
-    @include boxes;
+    border: white 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    transition-duration: 500ms;
 
     .works_thumbnails {
         margin: 0;
-        width: 190px;
+        width: 100%;
     }
 
     .detail {
-        @include boxes_details;
+        width: 95%;
+        height: 90%;
+        display: inline-block;
+        padding: 5px;
         text-decoration: none;
 
         .title {
@@ -76,7 +100,7 @@
 
         .status {
             margin-top: 10px;
-            height: 20px;
+            height: 25px;
             vertical-align: bottom;
             border: white 1px solid;
             border-radius: 10px;
@@ -86,15 +110,8 @@
             display: inline-block;
             width: 100%;
             opacity: 80%;
-            line-height: 15px;
-
-            &.unknown {
-                background-color: #808080;
-
-                &:before {
-                    content: 'Unknown'
-                }
-            }
+            line-height: 25px;
+            font-weight: bold;
 
             &.online {
                 background-color: green;
@@ -124,7 +141,6 @@
 
     &:hover {
         background-color: _palette(border-bg);
-        text-decoration: none;
         border-color: white;
     }
 
