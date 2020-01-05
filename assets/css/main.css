@@ -461,9 +461,8 @@ hr {
   width: 100%;
 }
 .works_box .detail {
-  width: 95%;
   height: 90%;
-    display: block;
+  display: block;
   padding: 5px;
   text-decoration: none;
 }
@@ -475,7 +474,7 @@ hr {
 .works_box .detail .description {
   margin-left: 3px;
   color: white;
-    display: block;
+  display: block;
 }
 .works_box .detail .status {
   margin-top: 10px;
