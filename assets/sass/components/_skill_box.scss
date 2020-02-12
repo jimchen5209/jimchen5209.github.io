@@ -69,27 +69,31 @@
                 }
 
                 &.css {
-                    width: 40%;
+                    width: 41%;
                 }
 
                 &.js {
-                    width: 35%;
+                    width: 40%;
                 }
 
-                &.vue_js {
+                &.ts {
                     width: 30%;
                 }
 
+                &.vue_js {
+                    width: 35%;
+                }
+
                 &.kotlin {
-                    width: 60%;
+                    width: 62%;
                 }
 
                 &.mongo_db {
-                    width: 45%;
+                    width: 46%;
                 }
 
                 &.c {
-                    width: 10%;
+                    width: 35%;
                 }
             }
         }
