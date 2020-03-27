@@ -11,6 +11,6 @@
     "watch": "sass --watch assets/sass/:assets/css/"
   },
   "dependencies": {
-    "sass": "^1.23.1"
+    "sass": "^1.26.3"
   }
 }
