@@ -417,7 +417,7 @@ $("#refresh_Button").click(() => {
 		button.addClass("refreshing");
 		$.ajax({
 			type: "GET",
-			url: "https://jjjjj.oktw.tw/getStatus/refreshNow",
+			url: "https://api.status.jimchen5209.me/getStatus/refreshNow",
 			success: checkOnline,
 			error: (response) => {
 				checkOnline({})
@@ -433,7 +433,7 @@ $("#refresh_Button").click(() => {
 	$(".error").addClass("hide");
 	$.ajax({
 		type: "GET",
-		url: "https://jjjjj.oktw.tw/getStatus",
+		url: "https://api.status.jimchen5209.me/getStatus",
 		success: checkOnline,
 		error: (response) => {
 			checkOnline({})
