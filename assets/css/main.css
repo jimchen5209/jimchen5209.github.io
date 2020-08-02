@@ -488,12 +488,19 @@ hr {
   display: none;
 }
 
+.works_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .works_box {
+  width: 49%;
   border: white 1px solid;
   border-radius: 10px;
-  margin: 10px;
+  margin: 2px;
   padding: 10px;
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   transition-duration: 500ms;
 }
@@ -501,19 +508,23 @@ hr {
 .works_box .works_thumbnails {
   margin: 0;
   width: 100%;
+  flex-grow: 1;
 }
 
-.works_box .detail {
-  height: 90%;
-  display: block;
-  padding: 5px;
-  text-decoration: none;
-}
-
-.works_box .detail .title {
+.works_box .title {
+  font-weight: bold;
   margin: 3px;
   color: white;
   font-size: 25px;
+}
+
+.works_box .detail {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 8;
+  justify-content: center;
+  padding: 5px;
+  text-decoration: none;
 }
 
 .works_box .detail .description {
@@ -522,7 +533,7 @@ hr {
   display: block;
 }
 
-.works_box .detail .status {
+.works_box .status {
   margin-top: 10px;
   height: 25px;
   vertical-align: bottom;
@@ -536,29 +547,30 @@ hr {
   opacity: 80%;
   line-height: 25px;
   font-weight: bold;
+  flex-grow: 1;
 }
 
-.works_box .detail .status.online {
+.works_box .status.online {
   background-color: green;
 }
 
-.works_box .detail .status.online:before {
+.works_box .status.online:before {
   content: "Online";
 }
 
-.works_box .detail .status.offline {
+.works_box .status.offline {
   background-color: red;
 }
 
-.works_box .detail .status.offline:before {
+.works_box .status.offline:before {
   content: "Offline";
 }
 
-.works_box .detail .status.unknown {
+.works_box .status.unknown {
   background-color: grey;
 }
 
-.works_box .detail .status.unknown:before {
+.works_box .status.unknown:before {
   content: "Unknown";
 }
 
@@ -618,7 +630,7 @@ form > .fields > .field.half {
 }
 
 form > .fields > .field.third {
-  width: calc(100%/3 - 0.5rem);
+  width: calc(100% / 3 - 0.5rem);
 }
 
 form > .fields > .field.quarter {
@@ -1188,18 +1200,18 @@ ul.actions.fit.stacked {
   }
 
   ul.actions:not(.fixed) li input[type=submit],
-ul.actions:not(.fixed) li input[type=reset],
-ul.actions:not(.fixed) li input[type=button],
-ul.actions:not(.fixed) li button,
-ul.actions:not(.fixed) li .button {
+  ul.actions:not(.fixed) li input[type=reset],
+  ul.actions:not(.fixed) li input[type=button],
+  ul.actions:not(.fixed) li button,
+  ul.actions:not(.fixed) li .button {
     width: 100%;
   }
 
   ul.actions:not(.fixed) li input[type=submit].icon:before,
-ul.actions:not(.fixed) li input[type=reset].icon:before,
-ul.actions:not(.fixed) li input[type=button].icon:before,
-ul.actions:not(.fixed) li button.icon:before,
-ul.actions:not(.fixed) li .button.icon:before {
+  ul.actions:not(.fixed) li input[type=reset].icon:before,
+  ul.actions:not(.fixed) li input[type=button].icon:before,
+  ul.actions:not(.fixed) li button.icon:before,
+  ul.actions:not(.fixed) li .button.icon:before {
     margin-left: -0.5em;
   }
 }
