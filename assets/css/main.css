@@ -379,23 +379,23 @@ hr {
 }
 
 .skill_box .detail .progress_out .progress.python {
-  width: 65%;
+  width: 66%;
 }
 
 .skill_box .detail .progress_out .progress.html5 {
-  width: 45%;
+  width: 55%;
 }
 
 .skill_box .detail .progress_out .progress.css {
-  width: 41%;
+  width: 51%;
 }
 
 .skill_box .detail .progress_out .progress.js {
-  width: 40%;
+  width: 50%;
 }
 
 .skill_box .detail .progress_out .progress.ts {
-  width: 30%;
+  width: 50%;
 }
 
 .skill_box .detail .progress_out .progress.vue_js {
@@ -403,7 +403,7 @@ hr {
 }
 
 .skill_box .detail .progress_out .progress.kotlin {
-  width: 62%;
+  width: 64%;
 }
 
 .skill_box .detail .progress_out .progress.mongo_db {
@@ -411,7 +411,7 @@ hr {
 }
 
 .skill_box .detail .progress_out .progress.c {
-  width: 35%;
+  width: 50%;
 }
 
 .skill_box:hover {
@@ -618,7 +618,7 @@ form > .fields > .field.half {
 }
 
 form > .fields > .field.third {
-  width: calc(100% / 3 - 0.5rem);
+  width: calc(100%/3 - 0.5rem);
 }
 
 form > .fields > .field.quarter {
@@ -1188,18 +1188,18 @@ ul.actions.fit.stacked {
   }
 
   ul.actions:not(.fixed) li input[type=submit],
-  ul.actions:not(.fixed) li input[type=reset],
-  ul.actions:not(.fixed) li input[type=button],
-  ul.actions:not(.fixed) li button,
-  ul.actions:not(.fixed) li .button {
+ul.actions:not(.fixed) li input[type=reset],
+ul.actions:not(.fixed) li input[type=button],
+ul.actions:not(.fixed) li button,
+ul.actions:not(.fixed) li .button {
     width: 100%;
   }
 
   ul.actions:not(.fixed) li input[type=submit].icon:before,
-  ul.actions:not(.fixed) li input[type=reset].icon:before,
-  ul.actions:not(.fixed) li input[type=button].icon:before,
-  ul.actions:not(.fixed) li button.icon:before,
-  ul.actions:not(.fixed) li .button.icon:before {
+ul.actions:not(.fixed) li input[type=reset].icon:before,
+ul.actions:not(.fixed) li input[type=button].icon:before,
+ul.actions:not(.fixed) li button.icon:before,
+ul.actions:not(.fixed) li .button.icon:before {
     margin-left: -0.5em;
   }
 }
