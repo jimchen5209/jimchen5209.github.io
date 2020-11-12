@@ -84,6 +84,10 @@
                     width: 35%;
                 }
 
+                &.java {
+                    width: 25%;
+                }
+
                 &.kotlin {
                     width: 64%;
                 }
@@ -94,6 +98,10 @@
 
                 &.c {
                     width: 50%;
+                }
+
+                &.c-sharp {
+                    width: 20%;
                 }
             }
         }

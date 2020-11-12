@@ -402,6 +402,10 @@ hr {
   width: 35%;
 }
 
+.skill_box .detail .progress_out .progress.java {
+  width: 25%;
+}
+
 .skill_box .detail .progress_out .progress.kotlin {
   width: 64%;
 }
@@ -412,6 +416,10 @@ hr {
 
 .skill_box .detail .progress_out .progress.c {
   width: 50%;
+}
+
+.skill_box .detail .progress_out .progress.c-sharp {
+  width: 20%;
 }
 
 .skill_box:hover {
