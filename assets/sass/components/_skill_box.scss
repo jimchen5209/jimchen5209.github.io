@@ -53,10 +53,12 @@
             .progress {
                 background-color: #fff;
                 display: inline-block;
+
                 &:before {
                     content: "\200b";
                 }
 
+                // Programming
                 &.vb {
                     width: 80%;
                 }
@@ -65,6 +67,31 @@
                     width: 70%;
                 }
 
+                &.js {
+                    width: 65%;
+                }
+
+                &.ts {
+                    width: 75%;
+                }
+
+                &.java {
+                    width: 55%;
+                }
+
+                &.kotlin {
+                    width: 65%;
+                }
+
+                &.c {
+                    width: 30%;
+                }
+
+                &.c-sharp {
+                    width: 50%;
+                }
+
+                // Frontend
                 &.html5 {
                     width: 75%;
                 }
@@ -77,26 +104,11 @@
                     width: 55%;
                 }
 
-                &.js {
-                    width: 65%;
-                }
-
-                &.ts {
-                    width: 75%;
-                }
-
                 &.vue_js {
                     width: 35%;
                 }
 
-                &.java {
-                    width: 55%;
-                }
-
-                &.kotlin {
-                    width: 65%;
-                }
-
+                // Database
                 &.mongo_db {
                     width: 55%;
                 }
@@ -113,6 +125,7 @@
                     width: 15%;
                 }
 
+                // Services
                 &.docker {
                     width: 30%;
                 }
@@ -125,16 +138,9 @@
                     width: 40%;
                 }
 
+                // Version control
                 &.git {
                     width: 70%;
-                }
-
-                &.c {
-                    width: 30%;
-                }
-
-                &.c-sharp {
-                    width: 50%;
                 }
             }
         }
