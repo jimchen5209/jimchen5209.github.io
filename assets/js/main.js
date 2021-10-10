@@ -402,7 +402,7 @@
 
 })(jQuery);
 
-const bots = ["PillPosting", "Fx and Record Discord Bot", "HJUtil", "BombNumber", "VoiceLog", "a2z", "channel helper", "message_management"];
+const bots = ["PillPosting", "Fx and Record Discord Bot", "HJUtil", "BombNumber", "VoiceLog", "a2z", "channel helper", "message_management", "fx-recorder", "fx-player"];
 const checkOnline = data => {
 	bots.forEach((i) => {
 		const element = $("#" + i.split(' ').join('_'));
