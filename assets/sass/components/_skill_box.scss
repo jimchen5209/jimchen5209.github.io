@@ -53,107 +53,103 @@
             line-height: 1.2rem;
             justify-self: center;
         }
+    }
 
-        .progress_out {
-            margin-top: 10px;
-            vertical-align: bottom;
-            border: white 1px solid;
-            border-radius: 10px;
-            overflow: hidden;
-            font-size: 0.5rem;
+    .progress_out {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        left: 0;
 
-            .progress {
-                background-color: #fff;
-                display: inline-block;
+        .progress {
+            background-color: rgba(255, 255, 255, 0.05);
+            display: inline-block;
+            height: 100%;
 
-                &:before {
-                    content: "\200b";
-                }
+            // Programming
+            &.vb {
+                width: 80%;
+            }
 
-                // Programming
-                &.vb {
-                    width: 80%;
-                }
+            &.python {
+                width: 70%;
+            }
 
-                &.python {
-                    width: 70%;
-                }
+            &.js {
+                width: 65%;
+            }
 
-                &.js {
-                    width: 65%;
-                }
+            &.ts {
+                width: 75%;
+            }
 
-                &.ts {
-                    width: 75%;
-                }
+            &.java {
+                width: 55%;
+            }
 
-                &.java {
-                    width: 55%;
-                }
+            &.kotlin {
+                width: 65%;
+            }
 
-                &.kotlin {
-                    width: 65%;
-                }
+            &.c {
+                width: 30%;
+            }
 
-                &.c {
-                    width: 30%;
-                }
+            &.c-sharp {
+                width: 50%;
+            }
 
-                &.c-sharp {
-                    width: 50%;
-                }
+            // Frontend
+            &.html5 {
+                width: 75%;
+            }
 
-                // Frontend
-                &.html5 {
-                    width: 75%;
-                }
+            &.markdown {
+                width: 70%;
+            }
 
-                &.markdown {
-                    width: 70%;
-                }
+            &.css {
+                width: 55%;
+            }
 
-                &.css {
-                    width: 55%;
-                }
+            &.vue_js {
+                width: 35%;
+            }
 
-                &.vue_js {
-                    width: 35%;
-                }
+            // Database
+            &.mongo_db {
+                width: 55%;
+            }
 
-                // Database
-                &.mongo_db {
-                    width: 55%;
-                }
+            &.mssql {
+                width: 35%;
+            }
 
-                &.mssql {
-                    width: 35%;
-                }
+            &.mysql {
+                width: 10%;
+            }
 
-                &.mysql {
-                    width: 10%;
-                }
+            &.firebase {
+                width: 15%;
+            }
 
-                &.firebase {
-                    width: 15%;
-                }
+            // Services
+            &.docker {
+                width: 30%;
+            }
 
-                // Services
-                &.docker {
-                    width: 30%;
-                }
-                
-                &.kubernetes {
-                    width: 30%;
-                }
+            &.kubernetes {
+                width: 30%;
+            }
 
-                &.cicd {
-                    width: 40%;
-                }
+            &.cicd {
+                width: 40%;
+            }
 
-                // Version control
-                &.git {
-                    width: 70%;
-                }
+            // Version control
+            &.git {
+                width: 70%;
             }
         }
     }

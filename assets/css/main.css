@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
  * Template by: Dimension by html5up.net | @gilkn (https://html5up.net/license)
  * Edited By / Author: jimchen5209
@@ -349,79 +348,76 @@ hr {
   line-height: 1.2rem;
   justify-self: center;
 }
-.skill_box .detail .progress_out {
-  margin-top: 10px;
-  vertical-align: bottom;
-  border: white 1px solid;
-  border-radius: 10px;
-  overflow: hidden;
-  font-size: 0.5rem;
+.skill_box .progress_out {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
-.skill_box .detail .progress_out .progress {
-  background-color: #fff;
+.skill_box .progress_out .progress {
+  background-color: rgba(255, 255, 255, 0.05);
   display: inline-block;
+  height: 100%;
 }
-.skill_box .detail .progress_out .progress:before {
-  content: "​";
-}
-.skill_box .detail .progress_out .progress.vb {
+.skill_box .progress_out .progress.vb {
   width: 80%;
 }
-.skill_box .detail .progress_out .progress.python {
+.skill_box .progress_out .progress.python {
   width: 70%;
 }
-.skill_box .detail .progress_out .progress.js {
+.skill_box .progress_out .progress.js {
   width: 65%;
 }
-.skill_box .detail .progress_out .progress.ts {
+.skill_box .progress_out .progress.ts {
   width: 75%;
 }
-.skill_box .detail .progress_out .progress.java {
+.skill_box .progress_out .progress.java {
   width: 55%;
 }
-.skill_box .detail .progress_out .progress.kotlin {
+.skill_box .progress_out .progress.kotlin {
   width: 65%;
 }
-.skill_box .detail .progress_out .progress.c {
+.skill_box .progress_out .progress.c {
   width: 30%;
 }
-.skill_box .detail .progress_out .progress.c-sharp {
+.skill_box .progress_out .progress.c-sharp {
   width: 50%;
 }
-.skill_box .detail .progress_out .progress.html5 {
+.skill_box .progress_out .progress.html5 {
   width: 75%;
 }
-.skill_box .detail .progress_out .progress.markdown {
+.skill_box .progress_out .progress.markdown {
   width: 70%;
 }
-.skill_box .detail .progress_out .progress.css {
+.skill_box .progress_out .progress.css {
   width: 55%;
 }
-.skill_box .detail .progress_out .progress.vue_js {
+.skill_box .progress_out .progress.vue_js {
   width: 35%;
 }
-.skill_box .detail .progress_out .progress.mongo_db {
+.skill_box .progress_out .progress.mongo_db {
   width: 55%;
 }
-.skill_box .detail .progress_out .progress.mssql {
+.skill_box .progress_out .progress.mssql {
   width: 35%;
 }
-.skill_box .detail .progress_out .progress.mysql {
+.skill_box .progress_out .progress.mysql {
   width: 10%;
 }
-.skill_box .detail .progress_out .progress.firebase {
+.skill_box .progress_out .progress.firebase {
   width: 15%;
 }
-.skill_box .detail .progress_out .progress.docker {
+.skill_box .progress_out .progress.docker {
   width: 30%;
 }
-.skill_box .detail .progress_out .progress.kubernetes {
+.skill_box .progress_out .progress.kubernetes {
   width: 30%;
 }
-.skill_box .detail .progress_out .progress.cicd {
+.skill_box .progress_out .progress.cicd {
   width: 40%;
 }
-.skill_box .detail .progress_out .progress.git {
+.skill_box .progress_out .progress.git {
   width: 70%;
 }
 .skill_box:hover {
