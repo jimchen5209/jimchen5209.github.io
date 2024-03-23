@@ -360,40 +360,67 @@ hr {
   display: inline-block;
   height: 100%;
 }
-.skill_box .progress_out .progress.vb {
-  width: 80%;
-}
-.skill_box .progress_out .progress.python {
-  width: 70%;
-}
 .skill_box .progress_out .progress.js {
-  width: 65%;
+  width: 75%;
 }
 .skill_box .progress_out .progress.ts {
   width: 75%;
 }
 .skill_box .progress_out .progress.java {
-  width: 55%;
+  width: 40%;
 }
 .skill_box .progress_out .progress.kotlin {
-  width: 65%;
+  width: 60%;
+}
+.skill_box .progress_out .progress.python {
+  width: 60%;
+}
+.skill_box .progress_out .progress.rust {
+  width: 20%;
 }
 .skill_box .progress_out .progress.c {
-  width: 30%;
+  width: 40%;
 }
 .skill_box .progress_out .progress.c-sharp {
   width: 50%;
+}
+.skill_box .progress_out .progress.vb {
+  width: 30%;
 }
 .skill_box .progress_out .progress.html5 {
   width: 75%;
 }
 .skill_box .progress_out .progress.markdown {
-  width: 70%;
+  width: 75%;
 }
 .skill_box .progress_out .progress.css {
-  width: 55%;
+  width: 75%;
 }
-.skill_box .progress_out .progress.vue_js {
+.skill_box .progress_out .progress.php {
+  width: 40%;
+}
+.skill_box .progress_out .progress.vue-js {
+  width: 75%;
+}
+.skill_box .progress_out .progress.react-js {
+  width: 25%;
+}
+.skill_box .progress_out .progress.tailwind {
+  width: 35%;
+}
+.skill_box .progress_out .progress.bootstrap {
+  width: 35%;
+}
+.skill_box .progress_out .progress.laravel {
+  width: 40%;
+}
+.skill_box .progress_out .progress.express-js {
+  width: 45%;
+}
+.skill_box .progress_out .progress.hexo {
+  width: 45%;
+}
+.skill_box .progress_out .progress.dotnet-mvc {
   width: 35%;
 }
 .skill_box .progress_out .progress.mongo_db {
@@ -403,22 +430,25 @@ hr {
   width: 35%;
 }
 .skill_box .progress_out .progress.mysql {
-  width: 10%;
+  width: 50%;
 }
 .skill_box .progress_out .progress.firebase {
-  width: 15%;
+  width: 10%;
 }
 .skill_box .progress_out .progress.docker {
-  width: 30%;
+  width: 60%;
 }
 .skill_box .progress_out .progress.kubernetes {
   width: 30%;
 }
-.skill_box .progress_out .progress.cicd {
-  width: 40%;
+.skill_box .progress_out .progress.github-actions {
+  width: 50%;
+}
+.skill_box .progress_out .progress.circle-ci {
+  width: 30%;
 }
 .skill_box .progress_out .progress.git {
-  width: 70%;
+  width: 75%;
 }
 .skill_box:hover {
   background-color: rgba(255, 255, 255, 0.075);

@@ -67,17 +67,10 @@
             display: inline-block;
             height: 100%;
 
-            // Programming
-            &.vb {
-                width: 80%;
-            }
-
-            &.python {
-                width: 70%;
-            }
+            // Programming Languages
 
             &.js {
-                width: 65%;
+                width: 75%;
             }
 
             &.ts {
@@ -85,35 +78,80 @@
             }
 
             &.java {
-                width: 55%;
+                width: 40%;
             }
 
             &.kotlin {
-                width: 65%;
+                width: 60%;
+            }
+
+            &.python {
+                width: 60%;
+            }
+
+            &.rust {
+                width: 20%
             }
 
             &.c {
-                width: 30%;
+                width: 40%;
             }
 
             &.c-sharp {
                 width: 50%;
             }
 
-            // Frontend
+            &.vb {
+                width: 30%;
+            }
+
+            // Basic Web
             &.html5 {
                 width: 75%;
             }
 
             &.markdown {
-                width: 70%;
+                width: 75%;
             }
 
             &.css {
-                width: 55%;
+                width: 75%;
             }
 
-            &.vue_js {
+            &.php {
+                width: 40%;
+            }
+
+            // Frameworks
+            &.vue-js {
+                width: 75%;
+            }
+
+            &.react-js {
+                width: 25%;
+            }
+
+            &.tailwind {
+                width: 35%;
+            }
+
+            &.bootstrap {
+                width: 35%;
+            }
+
+            &.laravel {
+                width: 40%;
+            }
+
+            &.express-js {
+                width: 45%;
+            }
+
+            &.hexo {
+                width: 45%;
+            }
+
+            &.dotnet-mvc {
                 width: 35%;
             }
 
@@ -127,29 +165,34 @@
             }
 
             &.mysql {
-                width: 10%;
+                width: 50%;
             }
 
             &.firebase {
-                width: 15%;
+                width: 10%;
             }
 
             // Services
             &.docker {
-                width: 30%;
+                width: 60%;
             }
 
             &.kubernetes {
                 width: 30%;
             }
 
-            &.cicd {
-                width: 40%;
+            // CI/CD
+            &.github-actions {
+                width: 50%;
+            }
+
+            &.circle-ci {
+                width: 30%;
             }
 
             // Version control
             &.git {
-                width: 70%;
+                width: 75%;
             }
         }
     }
