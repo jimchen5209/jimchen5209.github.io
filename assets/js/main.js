@@ -410,7 +410,7 @@ const checkOnline = data => {
 		element.addClass(data[i] ? (data[i].online ? "online" : "offline") : "unknown");
 	})
 }
-$("#refresh_Button").click(() => {
+$("#refresh_Button").on('click', () => {
 	$(".error").addClass("hide");
 	const button = $("#refresh_Button")
 	if (!button.hasClass("refreshing")) {
