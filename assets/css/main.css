@@ -519,14 +519,12 @@ hr {
   margin: 3px;
   color: white;
   font-size: 25px;
-}
-.works_box .small_icon {
-  width: 25px;
-  height: 25px;
-  margin-right: 2px;
+  gap: 2px;
 }
 .works_box .icon_svg {
   filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(87deg) brightness(114%) contrast(101%);
+  width: 25px;
+  height: 25px;
 }
 .works_box .detail {
   display: flex;
