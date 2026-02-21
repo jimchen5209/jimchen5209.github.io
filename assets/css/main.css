@@ -432,11 +432,17 @@ hr {
 .skill_box .progress_out .progress.mysql {
   width: 50%;
 }
+.skill_box .progress_out .progress.postgresql {
+  width: 25%;
+}
 .skill_box .progress_out .progress.firebase {
   width: 10%;
 }
 .skill_box .progress_out .progress.docker {
   width: 60%;
+}
+.skill_box .progress_out .progress.proxmox {
+  width: 40%;
 }
 .skill_box .progress_out .progress.kubernetes {
   width: 30%;

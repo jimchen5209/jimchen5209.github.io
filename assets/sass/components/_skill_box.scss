@@ -168,6 +168,10 @@
                 width: 50%;
             }
 
+            &.postgresql {
+                width: 25%;
+            }
+
             &.firebase {
                 width: 10%;
             }
@@ -175,6 +179,10 @@
             // Services
             &.docker {
                 width: 60%;
+            }
+
+            &.proxmox {
+                width: 40%;
             }
 
             &.kubernetes {
