@@ -778,19 +778,6 @@ input[type=radio] {
 input[type=checkbox] + label,
 input[type=radio] + label {
   text-decoration: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  color: #ffffff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 300;
-  margin: 0 0 0.5rem 0;
-  padding-left: 2.65rem;
-  padding-right: 0.75rem;
-  position: relative;
 }
 input[type=checkbox] + label:before,
 input[type=radio] + label:before {
@@ -804,6 +791,22 @@ input[type=radio] + label:before {
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+}
+input[type=checkbox] + label,
+input[type=radio] + label {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+  padding-left: 2.65rem;
+  padding-right: 0.75rem;
+  position: relative;
 }
 input[type=checkbox] + label:before,
 input[type=radio] + label:before {
@@ -905,8 +908,6 @@ input[type=radio] + label:before {
 /* Icon */
 .icon {
   text-decoration: none;
-  border-bottom: none;
-  position: relative;
 }
 .icon:before {
   -moz-osx-font-smoothing: grayscale;
@@ -919,6 +920,10 @@ input[type=radio] + label:before {
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+}
+.icon {
+  border-bottom: none;
+  position: relative;
 }
 .icon > .label {
   display: block;
@@ -1670,14 +1675,14 @@ body.is-article-visible #header {
   filter: blur(0.1rem);
   opacity: 0;
 }
+body.is-preload #header > * {
+  opacity: 0;
+}
 body.is-preload #header {
   -moz-filter: blur(0.125rem);
   -webkit-filter: blur(0.125rem);
   -ms-filter: blur(0.125rem);
   filter: blur(0.125rem);
-}
-body.is-preload #header > * {
-  opacity: 0;
 }
 body.is-preload #header .content .inner {
   max-height: 0;
